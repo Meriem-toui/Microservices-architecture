@@ -4,15 +4,15 @@ Les microservices désignent à la fois une architecture et une approche de dév
 
 # Excise
 1. Créer le micro service Customer-service
-  • Créer l’entité Customer 
-  • Créer l’interface CustomerRepository basée sur Spring Data
-  • Déployer l’API Restful du micro-service en utilisant Spring Data Rest 
-  • Tester le Micro service
+  - Créer l’entité Customer 
+  -  Créer l’interface CustomerRepository basée sur Spring Data
+  -  Déployer l’API Restful du micro-service en utilisant Spring Data Rest 
+  - Tester le Micro service
 2. Créer le micro service Inventory-service
-  • Créer l’entité Product
-  • Créer l’interface ProductRepository basée sur Spring Data 
-  • Déployer l’API Restful du micro-service en utilisant Spring Data Rest
-  •Tester le Micro service
+  - Créer l’entité Product
+  -  Créer l’interface ProductRepository basée sur Spring Data 
+  - Déployer l’API Restful du micro-service en utilisant Spring Data Rest
+  - Tester le Micro service
 3. Créer la Gateway service en utilisant Spring Cloud Gateway
    1. Tester la Service proxy en utilisant une configuration Statique basée sur le fichier application.yml
    2. Tester la Service proxy en utilisant une configuration Statique basée une configuration Java
