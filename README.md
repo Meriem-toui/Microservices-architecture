@@ -1,22 +1,22 @@
 # Microservices-architecture
 
-Les microservices désignent à la fois une architecture et une approche de développement logiciel qui consiste à décomposer les applications en éléments les plus simples, indépendants les uns des autres. Contrairement à une approche monolithique classique, selon laquelle tous les composants forment une entité indissociable, les microservices fonctionnent en synergie pour accomplir les mêmes tâches, tout en étant séparés. Chacun de ces composants ou processus est un microservice.
+Microservices are both an architecture and an approach to software development that consists of breaking down applications into the simplest pieces, independent of each other. Unlike a classic monolithic approach, where all components form an inseparable entity, microservices work synergistically to accomplish the same tasks, while being separate. Each of these components or processes is a microservice.
 
 # Excise
-1. Créer le micro service Customer-service
-  - Créer l’entité Customer 
-  -  Créer l’interface CustomerRepository basée sur Spring Data
-  -  Déployer l’API Restful du micro-service en utilisant Spring Data Rest 
-  - Tester le Micro service
-2. Créer le micro service Inventory-service
-  - Créer l’entité Product
-  -  Créer l’interface ProductRepository basée sur Spring Data 
-  - Déployer l’API Restful du micro-service en utilisant Spring Data Rest
-  - Tester le Micro service
-3. Créer la Gateway service en utilisant Spring Cloud Gateway
-   1. Tester la Service proxy en utilisant une configuration Statique basée sur le fichier application.yml
-   2. Tester la Service proxy en utilisant une configuration Statique basée une configuration Java
-4. Créer l’annuaire Registry Service basé sur NetFlix Eureka Server
-5. Tester le proxy en utilisant une configuration dynamique de Gestion des routes vers les micro services enregistrés dans l’annuaire Eureka Server
-6. Créer Le service Billing-Service en utilisant Open Feign pour communiquer avec les services Customer-service et Inventory-service
-7. Créer un client Angular qui permet d’afficher une facture
+1. Create the Customer-service micro service
+  - Create the Customer entity
+  - Create the CustomerRepository interface based on Spring Data
+  - Deploy the Restful API of the micro-service using Spring Data Rest
+  - Test the Micro service
+2. Create the Inventory-service micro-service
+  - Create the Product entity
+  - Create the ProductRepository interface based on Spring Data
+  - Deploy the Restful API of the micro-service using Spring Data Rest
+  - Test the Micro service
+3. Create the Gateway service using Spring Cloud Gateway
+   1. Test the Proxy Service using a Static configuration based on the application.yml file
+   2. Test the Proxy Service using a Static configuration based on a Java configuration
+4. Create the Registry Service directory based on NetFlix Eureka Server
+5. Test the proxy using a dynamic configuration of Route management to micro services registered in the Eureka Server directory
+6. Create the Billing-Service service using Open Feign to communicate with the Customer-service and Inventory-service services
+7. Create an Angular client that allows you to display an invoice
